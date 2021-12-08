@@ -53,7 +53,7 @@ const puppeteer = require('puppeteer');
         const hour3 = 10800000
         const hour6 = 21600000
         const hour10 = 36000000
-        console.log(`THERE ARE ${x+1} STATUS POSTS IN TOTAL\n\nFB AUTOPOST WILL POST 1 POST EVERY ${hour3 / hour} HRS`)
+        console.log(`THERE ARE ${title.length + 1} STATUS POSTS IN TOTAL\n\nFB AUTOPOST WILL POST 1 POST EVERY ${hour3 / hour} HRS`)
         const browser = await puppeteer.launch({
             headless: false
               //slowMo: 100
