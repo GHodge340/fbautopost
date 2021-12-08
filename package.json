@@ -1,0 +1,13 @@
+{
+  "name": "fbautopost",
+  "version": "1.0.0",
+  "description": "FB Posting Bot",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "post": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Hodge",
+  "license": "ISC"
+}
